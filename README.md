@@ -9,7 +9,7 @@
 
 ######request parameters:
 
--- url=http://images.all-free-download.com/images/graphiclarge/daisy_pollen_flower_220533.jpg&text=John smith
+http://localhost:8888/imageService/?url=[absolute image url]&text=[string]
 
 ######To do: 
 ------------------------------------------
