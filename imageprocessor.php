@@ -10,13 +10,14 @@
 
 	function LoadJPEG ($url, $text) {
 
-		
+		//to do: check if the image url has a valid image
 
 	    $jpg_image = imagecreatefromjpeg($url);
 
 	    //height & width
 	    $width = imagesx($jpg_image);
   		$height = imagesy($jpg_image);
+  		//to do: use this to center the text over image
 
 
   		//allocate font and color
@@ -32,7 +33,8 @@
 
 
 	function write_to_sftp(){
-		//batch job
+		//to do::
+		// write a batch job
 		//loop over local files and post them over sftp
 		//move files to archieve directory with new time stamp sub-directory 
 	}
