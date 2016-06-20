@@ -7,7 +7,7 @@
 4. Write a job to post the files into a sftp
 5. Out of scope: The files gets attached to a purchase order in a separate batch job from that sftp location
 
-request parameters
+######request parameters:
 
 -- url=http://images.all-free-download.com/images/graphiclarge/daisy_pollen_flower_220533.jpg&text=John smith
 
@@ -15,3 +15,4 @@ request parameters
 ------------------------------------------
 1. Add order number parameter
 2. Write method to post files to a sftp
+3. Send text position as a request parameter 
