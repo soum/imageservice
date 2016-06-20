@@ -13,5 +13,5 @@ request parameters
 
 To do: 
 ------------------------------------------
--- add order number parameter
--- write method to post files to a sftp
+1: Add order number parameter
+2: Write method to post files to a sftp
