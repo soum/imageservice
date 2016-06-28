@@ -7,8 +7,8 @@
 
 ######request parameters:
 
-http://localhost:8888/imageService/?url=[absolute image url]&text=[string]&order=[order number]
+http://localhost:8888/imageService/?url={absolute image url}&text={string}&order={order number}&serviceKey={service key}
 
 sameple image url to use: 
 
-http://localhost:8888/imageService/?url=http://demandware.edgesuite.net/sits_pod20/dw/image/v2/AAVP_PRD/on/demandware.static/-/Sites-mgi-master/default/dw64779e21/images/products/0606576w_LRG_rgb_Back.jpg?sw=450&amp;sh=450&amp;sm=fit&text=Tom&order=2165822C
+http://localhost:8888/imageService/?url=http://demandware.edgesuite.net/sits_pod20/dw/image/v2/AAVP_PRD/on/demandware.static/-/Sites-mgi-master/default/dw64779e21/images/products/0606576w_LRG_rgb_Back.jpg?sw=450&amp;sh=450&amp;sm=fit&text=Tom&order=2165822C&serviceKey={incripted domain name}
