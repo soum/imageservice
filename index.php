@@ -1,7 +1,7 @@
 <?php 
 	
 	header("Content-Type:application/json");
-	include("ServiceKeyVerification.php");
+	include("ServiceKeyValidation.php");
 	include("imageprocessor.php");
 
 	$img_url = $_GET['url'];
