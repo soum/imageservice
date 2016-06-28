@@ -1,26 +1,35 @@
 <?php 
 	
 	header("Content-Type:application/json");
+	include("ServiceKeyVerification.php");
 	include("imageprocessor.php");
 
 	$img_url = $_GET['url'];
 	$text = $_GET['text'];
+	$order = $_GET['order'];
+	$service_key = $_GET['serviceKey'];
 
-	if(!empty($img_url) && !empty($text)){
+	if(validateServiceKey($service_key)){
 
-		$new_img = get_new_img_url($img_url, $text);
+		if(!empty($img_url) && !empty($text) && !empty($order)){
 
-		if (empty($new_img)){
-			response(200, "fail", NULL);
+			$new_img = get_new_img_url($img_url, $text, $order);
+
+			if (empty($new_img)){
+				response(200, "fail", NULL);
+			}else{
+				response(200, "success", $new_img);
+			}
+			
+
 		}else{
-			response(200, "success", $new_img);
+
+			response(400,"invalid request", NULL);
+
 		}
-		
 
 	}else{
-
-		response(400,"invalid request", NULL);
-
+		response(400,"invalid service key", NULL);
 	}
 
 
