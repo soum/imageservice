@@ -7,5 +7,5 @@
 
 ######request parameters:
 
-http://localhost:8888/imageService/?url={absolute image url}&text={string}&order={order number}&serviceKey={service key}
+http://localhost:8888/imageService/?url={absolute image url}&text={string}&order={order number}&serviceKey={base64 encoded string}
 
