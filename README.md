@@ -11,3 +11,4 @@ http://localhost:8888/imageService/?url={absolute image url}&text={string}&order
 
 outside resource: 
 http://www.dnsqueries.com/en/encrypter.php
+aHR0cDovL3d3dy5tb3ZhZG8uY29tLw==
