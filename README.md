@@ -9,3 +9,5 @@
 
 http://localhost:8888/imageService/?url={absolute image url}&text={string}&order={order number}&serviceKey={base64 encoded string}
 
+outside resource: 
+http://www.dnsqueries.com/en/encrypter.php
